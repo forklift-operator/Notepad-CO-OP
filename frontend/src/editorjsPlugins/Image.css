@@ -1,0 +1,15 @@
+.editor-image {
+    padding: 20px 0;
+}
+
+.editor-image [contenteditable] {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.simple-image img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}

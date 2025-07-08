@@ -1,0 +1,45 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+.env
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === Node / React Frontend ===
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.parcel-cache/
+/frontend/build/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# === Java Backend (Maven or Gradle) ===
+/backend/target/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.idea/
+/backend/.vscode/
+/backend/out/
+/backend/build/
+/backend/*.iml
+
+# === IntelliJ / Eclipse ===
+*.iml
+*.ipr
+*.iws
+.idea/
+*.class
+
+# === Logs ===
+*.log
+
+# === OS ===
+ehthumbs.db
+Icon?
+desktop.ini
